@@ -10,13 +10,23 @@ on:
         default: 'us-en'
         required: true
       max_new_photos:
-        description: 'Max number of NEW destination photos to generate with Gemini in this run (0 = none)'
+        description: 'Max number of NEW destination photos to generate in this run (0 = none)'
         default: '100'
         required: true
-      gemini_model:
-        description: 'Gemini image model'
-        default: 'gemini-2.5-flash-image'
-        required: false
+      provider:
+        description: 'Photo provider'
+        type: choice
+        options: [openai, gemini]
+        default: 'openai'
+        required: true
+      image_model:
+        description: 'Image model (OpenAI: gpt-image-2.5-sunburst / gpt-image-2.5-flare / gpt-image-2; Gemini: gemini-2.5-flash-image)'
+        default: 'gpt-image-2.5-sunburst'
+        required: true
+      image_quality:
+        description: 'OpenAI image quality (low, medium, high, xhigh, max)'
+        default: 'high'
+        required: true
 
 permissions:
   contents: write
@@ -46,8 +56,12 @@ jobs:
 
       - name: Run pipeline (fetch feed, generate photos, render creatives, rewrite feed)
         env:
+          PHOTO_PROVIDER: ${{ github.event.inputs.provider || 'openai' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_IMAGE_MODEL: ${{ github.event.inputs.provider != 'gemini' && github.event.inputs.image_model || 'gpt-image-2.5-sunburst' }}
+          OPENAI_IMAGE_QUALITY: ${{ github.event.inputs.image_quality || 'high' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ github.event.inputs.gemini_model || 'gemini-2.5-flash-image' }}
+          GEMINI_MODEL: ${{ github.event.inputs.provider == 'gemini' && github.event.inputs.image_model || 'gemini-2.5-flash-image' }}
           MARKETS: ${{ github.event.inputs.markets || 'us-en' }}
           MAX_NEW_PHOTOS: ${{ github.event.inputs.max_new_photos || '100' }}
           GITHUB_REPOSITORY: ${{ github.repository }}

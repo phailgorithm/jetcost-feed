@@ -1,6 +1,7 @@
 // Full nightly pipeline for one or more markets:
-//   fetch feed -> aggregate destinations -> generate missing photos (Gemini) -> render creatives -> rewrite feed
-// Env: MARKETS (comma list, default us-en), MAX_NEW_PHOTOS (default 100), GEMINI_API_KEY, GEMINI_MODEL, BASE_URL
+//   fetch feed -> aggregate destinations -> generate missing photos (OpenAI or Gemini) -> render creatives -> rewrite feed
+// Env: MARKETS (comma list, default us-en), MAX_NEW_PHOTOS (default 100), PHOTO_PROVIDER (openai|gemini),
+//      OPENAI_API_KEY + OPENAI_IMAGE_MODEL + OPENAI_IMAGE_QUALITY, or GEMINI_API_KEY + GEMINI_MODEL, BASE_URL
 'use strict';
 const { execFileSync } = require('child_process');
 const path = require('path');
@@ -21,10 +22,11 @@ async function main() {
     console.log(`\n=== ${market} ===`);
     if (!skipFetch) execFileSync('node', [path.join(__dirname, 'fetch-feed.js'), market], { stdio: 'inherit' });
     const destinations = aggregate(market);
-    if (process.env.GEMINI_API_KEY && maxNew > 0) {
+    const hasKey = process.env.OPENAI_API_KEY || process.env.GEMINI_API_KEY;
+    if (hasKey && maxNew > 0) {
       await generatePhotos({ destinations, maxNew });
     } else {
-      console.log('Skipping photo generation (no GEMINI_API_KEY or MAX_NEW_PHOTOS=0)');
+      console.log('Skipping photo generation (no API key or MAX_NEW_PHOTOS=0)');
     }
     await render({ market, destinations });
     buildFeed(market);
