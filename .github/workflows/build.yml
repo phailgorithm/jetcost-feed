@@ -1,0 +1,91 @@
+name: Build Meta flight feed
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # every night at 03:00 UTC (05:00 Rome)
+  workflow_dispatch:
+    inputs:
+      markets:
+        description: 'Markets to build (comma separated keys from config/markets.json)'
+        default: 'us-en'
+        required: true
+      max_new_photos:
+        description: 'Max number of NEW destination photos to generate with Gemini in this run (0 = none)'
+        default: '100'
+        required: true
+      gemini_model:
+        description: 'Gemini image model'
+        default: 'gemini-2.5-flash-image'
+        required: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: build-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+
+      - name: Run pipeline (fetch feed, generate photos, render creatives, rewrite feed)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ github.event.inputs.gemini_model || 'gemini-2.5-flash-image' }}
+          MARKETS: ${{ github.event.inputs.markets || 'us-en' }}
+          MAX_NEW_PHOTOS: ${{ github.event.inputs.max_new_photos || '100' }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/pipeline.js
+
+      - name: Commit new photos to the cache
+        run: |
+          git config user.name "jetcost-feed-bot"
+          git config user.email "actions@github.com"
+          git add cache/photos
+          if git diff --cached --quiet; then
+            echo "No new photos"
+          else
+            git commit -m "chore: update photo cache ($(date -u +%Y-%m-%d))"
+            git pull --rebase origin ${{ github.ref_name }}
+            git push
+          fi
+
+      - name: Summary
+        run: |
+          echo "## Build summary" >> $GITHUB_STEP_SUMMARY
+          for f in dist/*/summary.json; do echo '```'; cat "$f"; echo; echo '```'; done >> $GITHUB_STEP_SUMMARY
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+        continue-on-error: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,27 @@
+{
+  "name": "jetcost-meta-feed",
+  "version": "1.0.0",
+  "description": "Jetcost flight feed for Meta with generated 9:16 destination creatives",
+  "scripts": {
+    "pipeline": "node scripts/pipeline.js",
+    "fetch": "node scripts/fetch-feed.js",
+    "aggregate": "node scripts/aggregate.js",
+    "photos": "node scripts/generate-photos.js",
+    "render": "node scripts/render.js",
+    "feed": "node scripts/build-feed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/montserrat": "^5.3.0",
+    "airport-data": "^1.0.1",
+    "playwright": "^1.56.0",
+    "sharp": "^0.35.4"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}

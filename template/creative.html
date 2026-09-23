@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Jetcost destination creative 9:16</title>
+<style>
+  @font-face { font-family: 'Montserrat'; font-weight: 800; src: url('../assets/fonts/montserrat-latin-800-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Montserrat'; font-weight: 900; src: url('../assets/fonts/montserrat-latin-900-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 500; src: url('../assets/fonts/inter-latin-500-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 600; src: url('../assets/fonts/inter-latin-600-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 700; src: url('../assets/fonts/inter-latin-700-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 800; src: url('../assets/fonts/inter-latin-800-normal.woff2') format('woff2'); }
+
+  :root {
+    --yellow: #FFDB00;
+    --coral: #E56246;
+    --ink: #14161C;
+    --w: 1080px;
+    --h: 1920px;
+    --gutter: 64px;
+    --top-safe: 168px;     /* keep logo/badge below the Stories/Reels profile header */
+    --bottom-safe: 300px;  /* keep CTA above the Stories/Reels reply bar */
+  }
+  html, body { margin: 0; padding: 0; background: #000; }
+  body { width: var(--w); height: var(--h); overflow: hidden; font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+
+  .canvas { position: relative; width: var(--w); height: var(--h); overflow: hidden; background: #1c2130; }
+  .photo { position: absolute; inset: 0; background-size: cover; background-position: center; }
+  .shade {
+    position: absolute; inset: 0;
+    background:
+      linear-gradient(to bottom, rgba(0,0,0,.42) 0%, rgba(0,0,0,0) 24%),
+      linear-gradient(to bottom, rgba(0,0,0,0) 44%, rgba(8,12,24,.55) 68%, rgba(8,12,24,.88) 88%, rgba(8,12,24,.94) 100%);
+  }
+
+  .header { position: absolute; left: var(--gutter); right: var(--gutter); top: var(--top-safe); display: flex; align-items: center; justify-content: space-between; }
+  .logo { display: block; width: 206px; height: auto; border-radius: 10px; box-shadow: 0 6px 20px rgba(0,0,0,.35); }
+  .badge {
+    background: var(--yellow); color: var(--ink);
+    font-weight: 800; font-size: 28px; letter-spacing: .06em; text-transform: uppercase;
+    padding: 16px 28px; border-radius: 14px; box-shadow: 0 6px 20px rgba(0,0,0,.35);
+  }
+
+  .bottom { position: absolute; left: var(--gutter); right: var(--gutter); bottom: var(--bottom-safe); }
+
+  .headline-wrap { position: relative; margin-bottom: 44px; }
+  .headline {
+    font-family: 'Montserrat', 'Inter', sans-serif; font-weight: 900; text-transform: uppercase;
+    line-height: .94; letter-spacing: -.02em; color: #fff;
+    max-width: 640px; text-shadow: 0 6px 30px rgba(0,0,0,.45);
+    word-break: normal; overflow-wrap: normal;
+  }
+  .headline .city { color: var(--yellow); display: block; }
+  .headline .calling { display: block; white-space: nowrap; }
+
+  .sticker {
+    position: absolute; right: 0; bottom: 20px;
+    width: 260px; height: 260px; border-radius: 50%;
+    background: var(--yellow); color: var(--ink);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    transform: rotate(-8deg); box-shadow: 0 14px 40px rgba(0,0,0,.45);
+  }
+  .sticker .from { font-weight: 700; font-size: 30px; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 2px; }
+  .sticker .price { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 92px; line-height: 1; letter-spacing: -.02em; white-space: nowrap; }
+
+  .cta {
+    display: flex; align-items: center; justify-content: center;
+    height: 122px; border-radius: 20px; background: var(--coral); color: #fff;
+    font-weight: 800; font-size: 42px; letter-spacing: -.01em;
+    box-shadow: 0 16px 40px rgba(229,98,70,.35), inset 0 -4px 0 rgba(0,0,0,.12);
+    white-space: nowrap; padding: 0 32px;
+  }
+  .footer { margin-top: 30px; text-align: center; color: var(--yellow); font-weight: 600; font-size: 28px; letter-spacing: .01em; text-shadow: 0 2px 10px rgba(0,0,0,.6); }
+</style>
+</head>
+<body>
+  <div class="canvas">
+    <div class="photo" id="photo"></div>
+    <div class="shade"></div>
+
+    <div class="header">
+      <img class="logo" id="logo" src="../assets/logo.png" alt="Jetcost">
+      <div class="badge" id="badge">STILL AVAILABLE</div>
+    </div>
+
+    <div class="bottom">
+      <div class="headline-wrap">
+        <div class="headline" id="headline"><span class="city" id="city">ROME</span><span class="calling" id="calling">CALLING.</span></div>
+        <div class="sticker">
+          <div class="from" id="from">FROM</div>
+          <div class="price" id="price">$89</div>
+        </div>
+      </div>
+      <div class="cta" id="cta">Compare flights to Rome →</div>
+      <div class="footer" id="footer">prices can change any day</div>
+    </div>
+  </div>
+
+<script>
+  // Shrink font-size until the element fits its box. Used for long city names, prices and CTA.
+  function fit(el, maxW, maxH, start, min) {
+    let size = start;
+    el.style.fontSize = size + 'px';
+    while (size > min && (el.scrollWidth > maxW || el.scrollHeight > maxH)) {
+      size -= 4;
+      el.style.fontSize = size + 'px';
+    }
+    return size;
+  }
+
+  // Called by render.js. data = { photo, city, calling, price, from, badge, cta, footer }
+  window.renderCreative = async function (data) {
+    document.getElementById('badge').textContent = data.badge;
+    document.getElementById('city').textContent = data.city;
+    document.getElementById('calling').textContent = data.calling;
+    document.getElementById('from').textContent = data.from;
+    document.getElementById('price').textContent = data.price;
+    document.getElementById('cta').textContent = data.cta;
+    document.getElementById('footer').textContent = data.footer;
+
+    const headline = document.getElementById('headline');
+    // Headline: up to 2 lines for the city + 1 line "CALLING.", within 700px width and ~3 lines height.
+    fit(headline, 640, 3 * 0.94 * 150 + 10, 150, 64);
+    const price = document.getElementById('price');
+    fit(price, 210, 110, 92, 44);
+    const cta = document.getElementById('cta');
+    fit(cta, 1080 - 128 - 64, 122, 42, 26);
+
+    const img = new Image();
+    img.src = data.photo;
+    try { await img.decode(); } catch (e) { /* placeholder stays */ }
+    document.getElementById('photo').style.backgroundImage = `url("${data.photo}")`;
+    await document.fonts.ready;
+    await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
+    return true;
+  };
+</script>
+</body>
+</html>

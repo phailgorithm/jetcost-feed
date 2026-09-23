@@ -1,0 +1,12 @@
+{
+  "_comment": "Optional per-destination overrides. Key = destination key (see build/<market>/destinations.json). 'prompt' replaces the photo prompt entirely; 'place' replaces only the '{place}' part of the default prompt; 'skip': true keeps the original feed image for that destination.",
+  "london-united-kingdom": { "place": "London, United Kingdom, with the Thames, Tower Bridge and the Houses of Parliament" },
+  "new-york-city-united-states": { "place": "New York City, Manhattan skyline with the Empire State Building" },
+  "paris-france": { "place": "Paris, France, with the Eiffel Tower and Haussmann rooftops" },
+  "rome-italy": { "place": "Rome, Italy, with the Colosseum, terracotta rooftops and St. Peter's dome" },
+  "tokyo-japan": { "place": "Tokyo, Japan, skyline with Tokyo Tower and Mount Fuji in the distance" },
+  "washington-united-states": { "place": "Washington D.C., United States, with the Capitol and the National Mall" },
+  "melbourne-united-states": { "place": "Melbourne, Florida, United States, Atlantic beachfront and the Indian River" },
+  "san-jose-united-states": { "place": "San Jose, California, downtown skyline and Santa Cruz mountains" },
+  "santiago-dominican-republic": { "place": "Santiago de los Caballeros, Dominican Republic, Monumento a los Heroes de la Restauracion" }
+}

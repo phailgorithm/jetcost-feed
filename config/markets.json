@@ -1,0 +1,41 @@
+{
+  "us-en": {
+    "cc": "us",
+    "lc": "en",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "texts": {
+      "badge": "STILL AVAILABLE",
+      "calling": "CALLING.",
+      "from": "FROM",
+      "cta": "Compare flights to {city} →",
+      "footer": "prices can change any day"
+    }
+  },
+  "gb-en": {
+    "cc": "gb",
+    "lc": "en-gb",
+    "currency": "GBP",
+    "currencySymbol": "£",
+    "texts": {
+      "badge": "STILL AVAILABLE",
+      "calling": "CALLING.",
+      "from": "FROM",
+      "cta": "Compare flights to {city} →",
+      "footer": "prices can change any day"
+    }
+  },
+  "it-it": {
+    "cc": "it",
+    "lc": "it",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "texts": {
+      "badge": "ANCORA DISPONIBILE",
+      "calling": "CHIAMA.",
+      "from": "DA",
+      "cta": "Confronta i voli per {city} →",
+      "footer": "i prezzi possono cambiare ogni giorno"
+    }
+  }
+}
