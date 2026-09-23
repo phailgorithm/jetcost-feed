@@ -2,85 +2,97 @@
   "london-united-kingdom": {
     "city": "London",
     "country": "United Kingdom",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
-    "failed": 1,
-    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+    "createdAt": "2026-09-23T08:43:20.438Z"
   },
   "chicago-united-states": {
     "city": "Chicago",
     "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
-    "failed": 1,
-    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+    "createdAt": "2026-09-23T08:43:26.935Z"
   },
   "new-york-city-united-states": {
     "city": "New York City",
     "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
-    "failed": 1,
-    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+    "createdAt": "2026-09-23T08:43:12.086Z"
   },
   "tokyo-japan": {
     "city": "Tokyo",
     "country": "Japan",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
-    "failed": 1,
-    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+    "createdAt": "2026-09-23T08:43:46.705Z"
   },
   "paris-france": {
     "city": "Paris",
     "country": "France",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
-    "failed": 1,
-    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+    "createdAt": "2026-09-23T08:43:50.283Z"
   },
   "washington-united-states": {
     "city": "Washington",
     "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
-    "failed": 1,
-    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+    "createdAt": "2026-09-23T08:43:56.510Z"
   },
   "dallas-united-states": {
     "city": "Dallas",
     "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
-    "failed": 1,
-    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+    "createdAt": "2026-09-23T08:44:28.800Z"
   },
   "toronto-canada": {
     "city": "Toronto",
     "country": "Canada",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
-    "failed": 1,
-    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+    "createdAt": "2026-09-23T08:44:20.235Z"
   },
   "houston-united-states": {
     "city": "Houston",
     "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
-    "failed": 1,
-    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+    "createdAt": "2026-09-23T08:44:27.203Z"
   },
   "buenos-aires-argentina": {
     "city": "Buenos Aires",
     "country": "Argentina",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
-    "failed": 1,
-    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+    "createdAt": "2026-09-23T08:44:52.019Z"
   },
   "miami-united-states": {
     "city": "Miami",
     "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
-    "failed": 1,
-    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+    "createdAt": "2026-09-23T08:44:55.134Z"
   },
   "orlando-united-states": {
     "city": "Orlando",
     "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
-    "failed": 1,
-    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+    "createdAt": "2026-09-23T08:44:59.832Z"
   }
 }
