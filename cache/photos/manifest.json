@@ -1,1 +1,86 @@
-{}
+{
+  "london-united-kingdom": {
+    "city": "London",
+    "country": "United Kingdom",
+    "promptVersion": 1,
+    "failed": 1,
+    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+  },
+  "chicago-united-states": {
+    "city": "Chicago",
+    "country": "United States",
+    "promptVersion": 1,
+    "failed": 1,
+    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+  },
+  "new-york-city-united-states": {
+    "city": "New York City",
+    "country": "United States",
+    "promptVersion": 1,
+    "failed": 1,
+    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+  },
+  "tokyo-japan": {
+    "city": "Tokyo",
+    "country": "Japan",
+    "promptVersion": 1,
+    "failed": 1,
+    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+  },
+  "paris-france": {
+    "city": "Paris",
+    "country": "France",
+    "promptVersion": 1,
+    "failed": 1,
+    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+  },
+  "washington-united-states": {
+    "city": "Washington",
+    "country": "United States",
+    "promptVersion": 1,
+    "failed": 1,
+    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+  },
+  "dallas-united-states": {
+    "city": "Dallas",
+    "country": "United States",
+    "promptVersion": 1,
+    "failed": 1,
+    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+  },
+  "toronto-canada": {
+    "city": "Toronto",
+    "country": "Canada",
+    "promptVersion": 1,
+    "failed": 1,
+    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+  },
+  "houston-united-states": {
+    "city": "Houston",
+    "country": "United States",
+    "promptVersion": 1,
+    "failed": 1,
+    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+  },
+  "buenos-aires-argentina": {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "promptVersion": 1,
+    "failed": 1,
+    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+  },
+  "miami-united-states": {
+    "city": "Miami",
+    "country": "United States",
+    "promptVersion": 1,
+    "failed": 1,
+    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+  },
+  "orlando-united-states": {
+    "city": "Orlando",
+    "country": "United States",
+    "promptVersion": 1,
+    "failed": 1,
+    "lastError": "Gemini HTTP 429 after 5 attempts: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head "
+  }
+}
