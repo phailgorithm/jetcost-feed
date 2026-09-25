@@ -894,5 +894,805 @@
     "model": "gpt-image-2.5-sunburst",
     "promptVersion": 1,
     "createdAt": "2026-09-24T08:26:55.488Z"
+  },
+  "islamabad-pakistan": {
+    "city": "Islamabad",
+    "country": "Pakistan",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:33:10.108Z"
+  },
+  "jakarta-indonesia": {
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:33:11.908Z"
+  },
+  "beirut-lebanon": {
+    "city": "Beirut",
+    "country": "Lebanon",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:33:14.457Z"
+  },
+  "saint-louis-united-states": {
+    "city": "Saint Louis",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:33:37.716Z"
+  },
+  "singapore-singapore": {
+    "city": "Singapore",
+    "country": "Singapore",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:33:37.799Z"
+  },
+  "tunis-tunisia": {
+    "city": "Tunis",
+    "country": "Tunisia",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:33:43.011Z"
+  },
+  "port-columbus-united-states": {
+    "city": "Port Columbus",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:34:03.124Z"
+  },
+  "havana-cuba": {
+    "city": "Havana",
+    "country": "Cuba",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:34:05.033Z"
+  },
+  "mumbai-india": {
+    "city": "Mumbai",
+    "country": "India",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:34:07.996Z"
+  },
+  "barbados-barbados": {
+    "city": "Barbados",
+    "country": "Barbados",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:34:29.735Z"
+  },
+  "munich-germany": {
+    "city": "Munich",
+    "country": "Germany",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:34:33.590Z"
+  },
+  "johannesburg-south-africa": {
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:34:33.796Z"
+  },
+  "reykjavik-iceland": {
+    "city": "Reykjavík",
+    "country": "Iceland",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:34:58.275Z"
+  },
+  "santa-ana-united-states": {
+    "city": "Santa Ana",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:34:59.414Z"
+  },
+  "colorado-springs-united-states": {
+    "city": "Colorado Springs",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:35:00.892Z"
+  },
+  "sydney-australia": {
+    "city": "Sydney",
+    "country": "Australia",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:35:24.519Z"
+  },
+  "cleveland-united-states": {
+    "city": "Cleveland",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:35:25.953Z"
+  },
+  "norfolk-united-states": {
+    "city": "Norfolk",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:35:26.187Z"
+  },
+  "budapest-hungary": {
+    "city": "Budapest",
+    "country": "Hungary",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:35:50.043Z"
+  },
+  "curacao-netherlands-antilles": {
+    "city": "Curacao",
+    "country": "Netherlands Antilles",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:35:51.344Z"
+  },
+  "hanoi-vietnam": {
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:35:53.783Z"
+  },
+  "tel-aviv-israel": {
+    "city": "Tel Aviv",
+    "country": "Israel",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:36:16.698Z"
+  },
+  "vienna-austria": {
+    "city": "Vienna",
+    "country": "Austria",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:36:17.604Z"
+  },
+  "barranquilla-colombia": {
+    "city": "Barranquilla",
+    "country": "Colombia",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:36:20.539Z"
+  },
+  "myrtle-beach-united-states": {
+    "city": "Myrtle Beach",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:36:44.721Z"
+  },
+  "asuncion-paraguay": {
+    "city": "Asunción",
+    "country": "Paraguay",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:36:45.084Z"
+  },
+  "ho-chi-minh-city-vietnam": {
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:36:47.286Z"
+  },
+  "dublin-ireland": {
+    "city": "Dublin",
+    "country": "Ireland",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:37:09.676Z"
+  },
+  "oklahoma-city-united-states": {
+    "city": "Oklahoma City",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:37:11.353Z"
+  },
+  "ontario-united-states": {
+    "city": "Ontario",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:37:13.193Z"
+  },
+  "monterrey-mexico": {
+    "city": "Monterrey",
+    "country": "Mexico",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:37:38.379Z"
+  },
+  "savannah-united-states": {
+    "city": "Savannah",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:37:40.125Z"
+  },
+  "tirana-albania": {
+    "city": "Tirana",
+    "country": "Albania",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:37:42.824Z"
+  },
+  "pensacola-united-states": {
+    "city": "Pensacola",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:38:06.724Z"
+  },
+  "belize-belize": {
+    "city": "Belize",
+    "country": "Belize",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:38:07.113Z"
+  },
+  "doha-unknown": {
+    "city": "Doha",
+    "country": "",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:38:10.707Z"
+  },
+  "memphis-united-states": {
+    "city": "Memphis",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:38:33.856Z"
+  },
+  "hartford-united-states": {
+    "city": "Hartford",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:38:34.721Z"
+  },
+  "oslo-norway": {
+    "city": "Oslo",
+    "country": "Norway",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:38:37.201Z"
+  },
+  "prague-czech-republic": {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:39:00.686Z"
+  },
+  "sarasota-bradenton-united-states": {
+    "city": "Sarasota/Bradenton",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:39:01.828Z"
+  },
+  "omaha-united-states": {
+    "city": "Omaha",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:39:03.819Z"
+  },
+  "venice-italy": {
+    "city": "Venice",
+    "country": "Italy",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:39:26.660Z"
+  },
+  "zanzibar-tanzania": {
+    "city": "Zanzibar",
+    "country": "Tanzania",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:39:28.648Z"
+  },
+  "albuquerque-united-states": {
+    "city": "Albuquerque",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:39:31.467Z"
+  },
+  "puerto-vallarta-mexico": {
+    "city": "Puerto Vallarta",
+    "country": "Mexico",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:39:53.030Z"
+  },
+  "fayetteville-united-states": {
+    "city": "Fayetteville",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:39:53.284Z"
+  },
+  "san-jose-united-states": {
+    "city": "San Jose",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:39:57.768Z"
+  },
+  "baku-azerbaijan": {
+    "city": "Baku",
+    "country": "Azerbaijan",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:40:18.719Z"
+  },
+  "fort-walton-beach-united-states": {
+    "city": "Fort Walton Beach",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:40:19.844Z"
+  },
+  "amman-jordan": {
+    "city": "Amman",
+    "country": "Jordan",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:40:26.358Z"
+  },
+  "stockholm-sweden": {
+    "city": "Stockholm",
+    "country": "Sweden",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:40:43.899Z"
+  },
+  "reno-united-states": {
+    "city": "Reno",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:40:48.640Z"
+  },
+  "warsaw-poland": {
+    "city": "Warsaw",
+    "country": "Poland",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:40:54.212Z"
+  },
+  "jackson-united-states": {
+    "city": "Jackson",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:41:11.982Z"
+  },
+  "porto-portugal": {
+    "city": "Porto",
+    "country": "Portugal",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:41:15.470Z"
+  },
+  "puerto-plata-dominican-republic": {
+    "city": "Puerto Plata",
+    "country": "Dominican Republic",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:41:21.750Z"
+  },
+  "saint-george-united-states": {
+    "city": "Saint George",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:41:38.511Z"
+  },
+  "san-jose-del-cabo-mexico": {
+    "city": "San Jose del Cabo",
+    "country": "Mexico",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:41:43.506Z"
+  },
+  "louisville-united-states": {
+    "city": "Louisville",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:41:48.015Z"
+  },
+  "albany-united-states": {
+    "city": "Albany",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:42:05.763Z"
+  },
+  "edinburgh-united-kingdom": {
+    "city": "Edinburgh",
+    "country": "United Kingdom",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:42:09.492Z"
+  },
+  "milwaukee-united-states": {
+    "city": "Milwaukee",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:42:15.443Z"
+  },
+  "port-of-spain-trinidad-and-tobago": {
+    "city": "Port of Spain",
+    "country": "Trinidad and Tobago",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:42:34.102Z"
+  },
+  "tbilisi-georgia": {
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:42:37.769Z"
+  },
+  "copenhagen-denmark": {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:42:40.964Z"
+  },
+  "helsinki-finland": {
+    "city": "Helsinki",
+    "country": "Finland",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:42:59.629Z"
+  },
+  "male-maldives": {
+    "city": "Male",
+    "country": "Maldives",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:43:06.414Z"
+  },
+  "melbourne-australia": {
+    "city": "Melbourne",
+    "country": "Australia",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:43:06.929Z"
+  },
+  "richmond-united-states": {
+    "city": "Richmond",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:43:26.340Z"
+  },
+  "toluca-mexico": {
+    "city": "Toluca",
+    "country": "Mexico",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:43:34.181Z"
+  },
+  "auckland-new-zealand": {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:43:34.447Z"
+  },
+  "la-paz-bolivia": {
+    "city": "La Paz",
+    "country": "Bolivia",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:43:55.343Z"
+  },
+  "marrakesh-morocco": {
+    "city": "Marrakesh",
+    "country": "Morocco",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:44:00.228Z"
+  },
+  "birmingham-united-states": {
+    "city": "Birmingham",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:44:03.054Z"
+  },
+  "tulsa-united-states": {
+    "city": "Tulsa",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:44:20.184Z"
+  },
+  "columbia-united-states": {
+    "city": "Columbia",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:44:27.392Z"
+  },
+  "entebbe-kampala-uganda": {
+    "city": "Entebbe/Kampala",
+    "country": "Uganda",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:44:32.036Z"
+  },
+  "kabul-afghanistan": {
+    "city": "Kabul",
+    "country": "Afghanistan",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:44:49.936Z"
+  },
+  "santa-cruz-bolivia": {
+    "city": "Santa Cruz",
+    "country": "Bolivia",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:44:56.597Z"
+  },
+  "cape-town-south-africa": {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:45:00.517Z"
+  },
+  "dar-es-salaam-tanzania": {
+    "city": "Dar Es Salaam",
+    "country": "Tanzania",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:45:17.595Z"
+  },
+  "fresno-united-states": {
+    "city": "Fresno",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:45:23.786Z"
+  },
+  "georgetown-guyana": {
+    "city": "Georgetown",
+    "country": "Guyana",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:45:27.134Z"
+  },
+  "pereira-colombia": {
+    "city": "Pereira",
+    "country": "Colombia",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:45:45.105Z"
+  },
+  "abu-dhabi-united-arab-emirates": {
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:45:50.632Z"
+  },
+  "mauritius-mauritius": {
+    "city": "Mauritius",
+    "country": "Mauritius",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:45:55.077Z"
+  },
+  "tucson-united-states": {
+    "city": "Tucson",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:46:12.659Z"
+  },
+  "key-west-united-states": {
+    "city": "Key West",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:46:17.175Z"
+  },
+  "sint-maarten-netherlands-antilles": {
+    "city": "Sint Maarten",
+    "country": "Netherlands Antilles",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:46:23.444Z"
+  },
+  "taipei-taiwan": {
+    "city": "Taipei",
+    "country": "Taiwan",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:46:38.634Z"
+  },
+  "bozeman-united-states": {
+    "city": "Bozeman",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:46:45.939Z"
+  },
+  "el-paso-united-states": {
+    "city": "El Paso",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:46:51.269Z"
+  },
+  "hyderabad-unknown": {
+    "city": "Hyderabad",
+    "country": "",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:47:04.986Z"
+  },
+  "karachi-pakistan": {
+    "city": "Karachi",
+    "country": "Pakistan",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:47:12.397Z"
+  },
+  "leon-mexico": {
+    "city": "Leon",
+    "country": "Mexico",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:47:19.187Z"
+  },
+  "aguadilla-puerto-rico": {
+    "city": "Aguadilla",
+    "country": "Puerto Rico",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:47:32.754Z"
+  },
+  "alicante-spain": {
+    "city": "Alicante",
+    "country": "Spain",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:47:40.528Z"
+  },
+  "anchorage-united-states": {
+    "city": "Anchorage",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:47:45.335Z"
+  },
+  "boise-united-states": {
+    "city": "Boise",
+    "country": "United States",
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T08:48:00.254Z"
   }
 }
